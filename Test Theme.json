@@ -1,0 +1,46 @@
+{
+    "name": "Theme_name",
+    "description": "Theme_description",
+    "authors": [
+        {
+            "name": "Author"
+        }
+    ],
+    "semanticColors": {
+        "Semantic_color_1": [
+            "#00ff00"
+        ],
+        "Semantic_color_2": [
+            "#00ff00"
+        ],
+        "android_ripple": [
+          "#000001"
+        ],
+        "background_ripple": [
+          "#FFFFFF"
+        ],
+        "background_floating": [
+        "#000001"
+        ] 
+        "background_modifier_accent": [
+        "#000001"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+          "#000001"
+        ],
+        "BACKGROUND_PRIMARY": [
+          "#000001"
+        ],
+        "BACKGROUND_SECONDARY": [
+          "#000001"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+          "#FFFFFF"
+        ]
+    },
+    "rawColors": {
+        "RAW_Color_1": "#00ff00",
+        "RAW_Color_2": "#00ff00"
+    },
+    "spec": 2
+}
