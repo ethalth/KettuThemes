@@ -21,7 +21,7 @@
         ],
         "background_floating": [
         "#000001"
-        ],
+        ] 
         "background_modifier_accent": [
         "#000001"
         ],
@@ -34,9 +34,6 @@
         "BACKGROUND_SECONDARY": [
           "#000001"
         ],
-        "BACKGROUND_SECONDARY_ALT": [
-          "#FFFFFF"
-        ]
     },
     "rawColors": {
         "RAW_Color_1": "#00ff00",
