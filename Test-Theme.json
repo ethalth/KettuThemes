@@ -13,26 +13,8 @@
         "Semantic_color_2": [
             "#00ff00"
         ],
-        "android_ripple": [
-          "#000001"
-        ],
-        "background_ripple": [
-          "#FFFFFF"
-        ],
-        "background_floating": [
-        "#000001"
-        ] 
-        "background_modifier_accent": [
-        "#000001"
-        ],
-        "BACKGROUND_MODIFIER_ACTIVE": [
-          "#000001"
-        ],
-        "BACKGROUND_PRIMARY": [
-          "#000001"
-        ],
-        "BACKGROUND_SECONDARY": [
-          "#000001"
+        "BG_BASE_PRIMARY": [
+          "#36393F"
         ],
     },
     "rawColors": {
