@@ -1,43 +1,85 @@
 {
-    "name": "Theme_name",
-    "description": "Theme_description",
-    "authors": [
-        {
-            "name": "Author"
-        }
-    ],
-    "semanticColors": {
-        "Semantic_color_1": [
-            "#00ff00"
-        ],
-        "Semantic_color_2": [
-            "#00ff00"
-        ],
-        "android_ripple": [
-          "#000001"
-        ],
-        "background_ripple": [
-          "#FFFFFF"
-        ],
-        "background_floating": [
-        "#000001"
-        ],
-        "background_modifier_accent": [
-        "#000001"
-        ],
-        "BACKGROUND_MODIFIER_ACTIVE": [
-          "#000001"
-        ],
-        "BACKGROUND_PRIMARY": [
-          "#000001"
-        ],
-        "BACKGROUND_SECONDARY": [
-          "#000001"
-        ]
+  "name": "Final Fantasy VII – Mako Reactor",
+  "author": "ethalth",
+  "type": "enmity",
+  "variables": {
+    "backgroundPrimary": "#0D0F12",
+    "backgroundSecondary": "#171B20",
+    "backgroundTertiary": "#1F2227",
+    "backgroundAccent": "#2A2E34",
+    "textNormal": "#E1E1E1",
+    "textMuted": "#8F9298",
+    "textLink": "#6AD9B8",
+    "headerPrimary": "#0A0C0F",
+    "headerSecondary": "#13171B",
+    "interactiveNormal": "#6AD9B8",
+    "interactiveHover": "#5EBEA7",
+    "interactiveActive": "#4BA88D",
+    "interactiveMuted": "#3C7060",
+    "scrollbarThumb": "#3E444C",
+    "scrollbarTrack": "#1A1E24",
+    "brand": "#6AD9B8"
+  },
+  "colors": {
+    "PRIMARY_DARK_600": "{backgroundPrimary}",
+    "SECONDARY_DARK_500": "{backgroundSecondary}",
+    "BACKGROUND_TERTIARY": "{backgroundTertiary}",
+    "BACKGROUND_ACCENT": "{backgroundAccent}",
+    "TEXT_NORMAL": "{textNormal}",
+    "TEXT_MUTED": "{textMuted}",
+    "INTERACTIVE_NORMAL": "{interactiveNormal}",
+    "INTERACTIVE_HOVER": "{interactiveHover}",
+    "INTERACTIVE_ACTIVE": "{interactiveActive}",
+    "INTERACTIVE_MUTED": "{interactiveMuted}",
+    "SCROLLBAR_THUMB": "{scrollbarThumb}",
+    "SCROLLBAR_TRACK": "{scrollbarTrack}",
+    "BRAND_ACCENT": "{brand}",
+    "LINK": "{textLink}"
+  },
+  "appearance": {
+    "app": {
+      "background": "{backgroundPrimary}",
+      "accent": "{brand}"
     },
-    "rawColors": {
-        "RAW_Color_1": "#00ff00",
-        "RAW_Color_2": "#00ff00"
+    "chat": {
+      "background": "{backgroundSecondary}",
+      "messageBackground": "{backgroundTertiary}",
+      "messageAuthor": "{textNormal}",
+      "messageContent": "{textNormal}",
+      "mentionHighlight": "{interactiveNormal}",
+      "mentionText": "{textNormalized}"
     },
-    "spec": 2
+    "header": {
+      "background": "{headerPrimary}",
+      "text": "{textNormal}"
+    },
+    "sidebar": {
+      "background": "{backgroundAccent}",
+      "text": "{textMuted}",
+      "selectedBackground": "{interactiveNormal}",
+      "selectedText": "{backgroundPrimary}"
+    },
+    "buttons": {
+      "default": "{interactiveNormal}",
+      "hover": "{interactiveHover}",
+      "active": "{interactiveActive}",
+      "disabled": "{interactiveMuted}",
+      "text": "{backgroundPrimary}"
+    },
+    "scrollbar": {
+      "thumb": "{scrollbarThumb}",
+      "track": "{scrollbarTrack}"
+    }
+  },
+  "fonts": {
+    "primary": "Inter",
+    "weight": {
+      "regular": 400,
+      "bold": 700
+    }
+  },
+  "effects": {
+    "dropShadow": "0px 2px 4px rgba(0, 0, 0, 0.5)",
+    "glow": "0 0 6px rgba(106, 217, 184, 0.6)"
+  }
 }
